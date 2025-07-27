@@ -28,7 +28,7 @@ export class ChronoMateAI {
   private context: ConversationContext | null = null;
 
   constructor() {
-    this.model = genAI.getGenerativeModel({ model: 'gemini-pro' });
+    this.model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
   }
 
   async initialize(context: ConversationContext) {
